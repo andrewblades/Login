@@ -1,0 +1,14 @@
+<nav class="navbar">
+    <div class="container">
+        <a class='logo' href="/">PROJECT RELOG</a>
+        <div class='log'>
+            <% if( currentUser==null) {%>
+                <a href="/login">Login</a>
+                <a href="/register">Register</a>
+                <% }else{ %>
+                    <a href="/logout">Logout</a>
+                    <% } %>
+
+        </div>
+    </div>
+</nav>
