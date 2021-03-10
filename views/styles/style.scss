@@ -1,7 +1,27 @@
 *{
     margin: 0px;
-    border: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
 }
 
 
+body{
+    background-color: #9bccf7;
+    background-image: linear-gradient(to bottom right, #9bccf7 10%, #102040)
+
+}
+
+.main{
+  display:flex;
+  
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+    
+@import 'navbar';
+@import 'footer';
