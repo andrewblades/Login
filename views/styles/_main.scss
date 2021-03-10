@@ -1,0 +1,108 @@
+.main{
+    
+    // max-width: 400px;
+    .card{
+    padding: 50px 30px;
+    background-color: white;
+    border-radius:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 5px rgba(27, 27, 27, 0.137)
+    }
+    
+    .form{
+        display:block;
+        width: 100%;
+        max-width: 400px;
+        padding: 50px 30px;
+        background-image: linear-gradient(to bottom, #00bc7e, #108775);
+        box-shadow: 0px 6px 12px rgba(0,0,0,0.2);
+        border-radius: 16px;
+
+        h1{
+         font-family:'Anton', sans-serif;
+         letter-spacing: 1px;
+         color:#eef6ff;
+         font-weight: 400;
+         margin-bottom: 1rem;
+        }
+
+
+        form label{
+            display:block;
+            color: #eee;
+            font-size:14px;
+            margin:5px;
+        }
+
+        form input{
+            all: unset;
+        }
+
+        form input:not([type='submit']) {
+           display:block;
+           width:90%;
+           padding: 10px;
+           border-radius: 6px;
+           background-color: rgba(0,0,0,0.2);
+           box-shadow: 0px 0px 0px rgba(0,0,0,0);
+           transition: 0.8s;
+           color: #222;
+           font-size: 18px;
+        }
+
+        form input:not([type="submit"]):focus, form input:not([type="submit"]):valid {
+	        background-color: #fff;
+	        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        form input[type="submit"] {
+                display: block;
+                width: 100%;
+                padding: 15px;
+                border-radius: 8px;
+                background-color: #2F4960;
+                box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+                transition: 0.4s;
+                color: #FFF;
+                font-size: 20px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+
+      
+        
+        }    
+    
+
+}
+
+
+
+
+button{
+
+
+ letter-spacing: 1px;
+color:#eef6ff;
+
+margin-bottom: 1rem;
+
+ 
+border: none;
+ margin: none;     
+display: block;
+width: 80%;
+ padding: 15px;
+border-radius: 8px;
+background-color: #313436;
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+transition: 0.4s;
+ 
+font-size: 20px;
+font-weight: 700;
+ cursor: pointer;
+ margin-left: 2rem;
+ margin-top: 2rem;
+}

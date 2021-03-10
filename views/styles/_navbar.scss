@@ -1,12 +1,13 @@
 .navbar{
     width: 100%;
-    height:100%;
+    height: 80%;
     margin: auto;
     display:block;
     font-size: 16px;
  
 
-    background-image: linear-gradient( #58f878 10%, rgba(160, 42, 42, 0));
+   
+    background-image: linear-gradient(to bottom,#1ab8a0,#02c785);
 
   
     .container{
@@ -16,16 +17,15 @@
         align-items: center;
         color:#a0a0a0;
        a{ text-decoration: none;
-          color: #3b4653;
+          color: #dde4ec;
           font-family: 'Anton', sans-serif;}
     .logo{
         font-size: 2.5rem;
-        
-        background-image: rgb(44, 42, 91);
         padding: 0.5rem 1.5rem;
         border-radius: 10px;
         border-width: 10%;
         font-family: 'Anton', 'Roboto', sans-serif;
+        color:#eef6ff;
        
     }
 
@@ -36,14 +36,18 @@
       color:#a0a0a0;
       font-family: 'Anton', sans-serif;
       a{ text-decoration: none;
-        color: #3b4653;
+        color: #eef6ff;
         font-family: 'Anton', sans-serif;
-
+     
            
     }
     }}
   
     
+}
+
+.btn{
+    all: unset;
 }
 
 

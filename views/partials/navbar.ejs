@@ -6,7 +6,9 @@
                 <a href="/login">Login</a>
                 <a href="/register">Register</a>
                 <% }else{ %>
-                    <a href="/logout">Logout</a>
+                    <form action="/logout?_method=DELETE" method='POST'>
+                        <button class='btn' type='submit'>Logout</button>
+                    </form>
                     <% } %>
 
         </div>
