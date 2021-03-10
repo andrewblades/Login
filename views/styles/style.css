@@ -79,7 +79,23 @@ body {
 }
 
 .btn {
-  all: unset;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  outline: inherit;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  border: none;
+  margin: none;
+  display: block;
+  width: 80%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: #eef6ff;
+  font-family: 'Anton', sans-serif;
+  margin-top: 1rem;
 }
 
 .footer {
@@ -196,7 +212,7 @@ body {
   cursor: pointer;
 }
 
-button {
+.button {
   letter-spacing: 1px;
   color: #eef6ff;
   margin-bottom: 1rem;
