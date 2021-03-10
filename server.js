@@ -42,7 +42,7 @@ app.use((req, res, next) => {
 
     next()
 })
-
+app.use(express.static(__dirname + '/views'));
 
 app.get('/', checkAuthentification, (req, res) => {
     res.render('index.ejs', { name: req.user.name })

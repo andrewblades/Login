@@ -1,1 +1,108 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #9bccf7;
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(10%, #9bccf7), to(#102040));
+  background-image: linear-gradient(to bottom right, #9bccf7 10%, #102040);
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: block;
+  font-size: 16px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #58f878), to(rgba(160, 42, 42, 0)));
+  background-image: linear-gradient(#58f878 10%, rgba(160, 42, 42, 0));
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #a0a0a0;
+}
+
+.navbar .container a {
+  text-decoration: none;
+  color: #3b4653;
+  font-family: 'Anton', sans-serif;
+}
+
+.navbar .container .logo {
+  font-size: 2.5rem;
+  background-image: #2c2a5b;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  border-width: 10%;
+  font-family: 'Anton', 'Roboto', sans-serif;
+}
+
+.navbar .container .log {
+  font-size: 1.5rem;
+  padding: 0.3rem 1.5rem;
+  border-radius: 10px;
+  color: #a0a0a0;
+  font-family: 'Anton', sans-serif;
+}
+
+.navbar .container .log a {
+  text-decoration: none;
+  color: #3b4653;
+  font-family: 'Anton', sans-serif;
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  min-height: 5vh;
+  margin: auto;
+  display: block;
+  font-size: 1rem;
+  background-color: #222222;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4e4e4e;
+  padding-top: 0.5rem;
+}
+
+.footer .container .innertext {
+  font-family: 'Anton',sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
